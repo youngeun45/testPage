@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<!-- Header doc -->
+<title>동원미트큐</title>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+*{margin: 0;padding: 0;box-sizing: border-box;;}
+.wrap {    display: -webkit-box;
+    display: flex;
+    -webkit-box-direction: normal;;    -webkit-box-orient: vertical;
+    flex-direction: column;
+    height: 100vh;}
+.header {    -webkit-box-flex: 0;
+    flex: 0 0 65px;
+    -webkit-box-orient: horizontal;
+    flex-direction: row;
+    width: 100vw;
+    position: relative;
+    height: 65px;
+    margin-bottom: -2px;
+    text-align: center;
+    background-color: #e4002b;text-align: center;
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-direction: normal;}
+.contents {-webkit-box-flex: 1;
+    flex: 1 1 auto;
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;}
+    .contents p {height:100px; background: yellow;border-bottom:2px solid #000;}
+.cart {position: fixed;
+    bottom: 0;
+    width: 100%;
+    min-height: 52px;
+    padding: 12px 0 0 17px;
+    background-image: -webkit-gradient(linear,left top,left bottom,from(#fff),to(#f0f0f0));
+    background-image: linear-gradient(180deg,#fff,#f0f0f0);}
+
+</style>
+</head>
+<body>
+    <div class="wrap">
+        <header class="header">
+            헤더
+        </header>
+        <div class="contents">
+            <p>컨텐츠</p> 
+            <p>컨텐츠</p> <p>컨텐츠</p> <p>컨텐츠</p> <p>컨텐츠</p> <p>컨텐츠</p> <p>컨텐츠</p> <p>컨텐츠</p> <p>컨텐츠</p> <p>컨텐츠</p> 
+        </div>
+        <div class="cart">
+            카트픽스
+        </div>
+    </div>
+</body>
+<script>
+
+</script>
+
+</html>
